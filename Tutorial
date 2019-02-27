@@ -5,9 +5,9 @@
     <title> Day and Night</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
+<script> //GET RID OF 
 
-  $(document).ready( function() {
+  $(document).ready( function() { (?)
  
     $('#orb').click( function() {        
         if ($(this).hasClass('sun')) {
@@ -17,7 +17,7 @@
             $(this).removeClass('moon').addClass('sun');
         }
 
-    });
+    }); //GET RID OF
         if ($('#sky').hasClass('day')) {
     $('#sky').removeClass('day').addClass('night');
         }
@@ -26,7 +26,7 @@
     }
 });
   
-</script>
+</script> //GET RID OF
 <style>
 #orb {
     height: 300px;
@@ -36,7 +36,7 @@
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
-    background-color: yellow;
+    background-color: yellow; //GET RID OF
 }
 #sky {
     height: 100vh;
@@ -59,11 +59,15 @@
 .sun:hover {
     border: 20px solid #f1c40f;
 }
+
+//ADD MOONSPOT, MOON HOVER, VISIBLE
 </style>
 </head>
 
 <body>
     <div id= "orb" class= "sun"></div>
     <div id= "sky" class= "day"></div>
+    
+    //<SCRIPT SRC="MAIN.JS></SCRIPT>
 </body>
 </html>
